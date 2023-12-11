@@ -8,7 +8,7 @@
 		<link>https://kanenas.net/</link>
 		<file path="admin/controller/extension/module/seo_mega_pack.php" error="log">
 			<operation error="skip">
-				<search><![CDATA[			$img_part .= sprintf("\r\n\t\t<image:image>\r\n\t\t<image:loc>%s</image:loc>\r\n\t\t<image:title>%s</image:title>\r\n\t\t</image:image>",]]></search>
+				<search><![CDATA[$img_part .= sprintf("\r\n\t\t<image:image>\r\n\t\t<image:loc>%s</image:loc>\r\n\t\t<image:title>%s</image:title>\r\n\t\t</image:image>",]]></search>
 				<add position="before"><![CDATA[
 			// kanenas: knns_domain_verification.ocmod.xml (start) <<
 			$img_part .= sprintf("\r\n\t\t<image:image>\r\n\t\t<image:loc>%s</image:loc>\r\n\t\t<image:title><![CDATA[%s]]></image:title>\r\n\t\t</image:image>",
